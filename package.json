@@ -1,14 +1,27 @@
 {
-  "name": "node-todo",
-  "version": "0.0.1",
+  "name": "kelompok1",
+  "version": "1.0.0",
   "description": "Simple todo application.",
   "main": "server.js",
   "author": "Scotch",
   "dependencies": {
     "body-parser": "^1.18.2",
-    "mongoose": "4.10.8",
-    "express": "^4.10.8",
+    "express": "^4.16.4",
     "method-override": "^2.3.10",
+    "mongoose": "4.10.8",
     "morgan": "^1.9.0"
-  }
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/techbrij/node-todo.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/techbrij/node-todo/issues"
+  },
+  "homepage": "https://github.com/techbrij/node-todo#readme"
 }
